@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>주사위 그리기</h1>
+    <hr>
+    <canvas id="myCanvas" width="1000" height="1000"
+</body>
+<script>
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    
+    context.beginPath();
+    context.rect(10,10,210,210);
+    context.rect(230,10,210,210);
+    context.rect(450,10,210,210);
+    context.rect(10,230,210,210);
+    context.rect(230,230,210,210);
+    context.rect(450,230,210,210);
+
+    context.strokeStyle="black";
+    context.stroke();
+
+    context.beginPath();
+    context.arc(115,115,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    
+    context.beginPath();
+    context.arc(275,50,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(400,185,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+
+    context.beginPath();
+    context.arc(495,50,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(555,125,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(620,185,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+
+    context.beginPath();
+    context.arc(55,270,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(55,405,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(180,405,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(180,270,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    
+    context.beginPath();
+    context.arc(275,270,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(275,405,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(400,405,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(400,270,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(340,340,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+
+    context.beginPath();
+    context.arc(495,270,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(620,270,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(495,340,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(620,340,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(495,405,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    context.beginPath();
+    context.arc(620,405,15, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+    
+
+</script>
+</html>
